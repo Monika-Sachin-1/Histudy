@@ -1,7 +1,11 @@
-import React from "react";
+import { GridView } from "../Components/Courses/GridView"
+import { CoursesHeader } from "../Components/Headers/CoursesHeader"
 
-function CoursePage() {
-  return <div>CoursePage</div>;
+export const CoursePage = () => {
+  return (
+    <div>
+        <CoursesHeader/>
+        <GridView/>
+    </div>
+  )
 }
-
-export default CoursePage;

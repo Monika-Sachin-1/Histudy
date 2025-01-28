@@ -1,0 +1,63 @@
+.light-grey{
+    color:#f7f7f7;
+}
+.dark-grey{
+    color:#333333;
+}
+.blue{
+    color:#003f91
+}
+.yellow{
+    color:#f9a826;
+}
+.light{
+    color:#6B7385;
+}
+
+.heading{
+    font-family: sans-serif;
+}
+.body-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.light-bg{
+    background-image: linear-gradient(to bottom, #FFFFFF, #EFF1FF);
+}
+.dark-bg{
+    background:  linear-gradient(to bottom ,  #FFFFFF,#2F57EF) ;
+
+}
+.dark{
+    color: #192335;
+}
+.h1{
+ font-size: 36.91px;
+ font-weight: bold;
+}
+.h2{
+
+}
+.h3{
+    font-size: 26.91px;
+    font-weight: bold;
+}
+.h4{
+
+}
+.h5{
+
+}
+.h6{
+
+}
+.common-btn{
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    color: white;
+    background-image: linear-gradient(to right,#2F57EF,#B966E7,#B966E7,#2F57EF);
+}
+.error{
+    color: #2F57EF;
+    font-size: 8.86px;
+}

@@ -3,14 +3,14 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
-import AboutPage from "./pages/AboutPage.jsx";
-import BlogPage from "./pages/BlogPage.jsx";
-import ContactPage from "./pages/ContactPage.jsx";
-import CoursePage from "./pages/CoursePage.jsx";
-import HomePage from "./pages/HomePage.jsx";
-import SignUpAdminPage from "./pages/SignUpAdminPage.jsx";
-import SignUpInstructorPage from "./pages/SignUpInstructorPage.jsx";
-import SignUpUserPage from "./pages/SignUpUserPage.jsx";
+import AboutPage from "./Pages/AboutPage.jsx";
+import BlogPage from "./Pages/BlogPage.jsx";
+import ContactPage from "./Pages/ContactPage.jsx";
+import CoursePage from "./Pages/CoursePage.jsx";
+import HomePage from "./Pages/HomePage.jsx";
+import SignUpAdminPage from "./Pages/SignUpAdminPage.jsx";
+import SignUpInstructorPage from "./Pages/SignUpInstructorPage.jsx";
+import SignUpUserPage from "./Pages/SignUpUserPage.jsx";
 
 const router = createBrowserRouter([
   {

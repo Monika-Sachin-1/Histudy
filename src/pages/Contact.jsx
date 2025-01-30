@@ -1,7 +1,16 @@
 import React from "react";
+import ContactSection from "../Components/ContactComponents/ContactSection";
+import FormSection from "../Components/ContactComponents/FormSection";
+import GoogleMap from "../Components/ContactComponents/GoogleMap";
 
-function ContactPage() {
-  return <div>ContactPage</div>;
+function Contact() {
+  return (
+    <div>
+      <ContactSection />
+      <FormSection />
+      <GoogleMap />
+    </div>
+  );
 }
 
-export default ContactPage;
+export default Contact;
